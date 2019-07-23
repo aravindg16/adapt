@@ -1,0 +1,478 @@
+* { box-sizing: border-box; }
+
+.body-wrapper {
+    margin: 0px;
+    background-color: #FBFBFB;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.header-wrapper {
+    padding: 0 125px;
+    align-items: center;
+    width: 100%;
+}
+.header-wrapper-container {
+    height: 85px;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.signin-button, .free-trail-button {
+    padding: 0 15px;
+    margin: 0 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #9d9d9d;
+    cursor: pointer;
+    align-items: center;
+}
+
+.hamberger-freetrail, .hamberger-demobutton {
+    color: #666;
+    padding: 10px 10px;
+    border-top: 1px solid #c8c8c8;
+}
+
+.hamberger-signin {
+    color: #666;
+    padding: 10px 10px;
+}
+
+.graph-list {
+    color: #9d9d9d;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sony-details {
+    color: #9d9d9d;
+    padding: 10px 0; 
+}
+
+.count-text {
+    color: #9d9d9d;
+}
+
+.sony-details-wrapper {
+    padding-left: 100px;
+}
+
+.top-contact-list-wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    grid-gap: 50px;
+    margin: 30px 0;
+}
+
+.similar-company-list-wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 50px;
+    margin: 30px 0;
+}
+
+.sony-logo {
+    height: 75px;
+}
+
+.demo-title {
+    padding-left: 25px;
+}
+
+.signin-button:hover, .free-trail-button:hover {
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.text-content {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.count-content {
+    padding: 20px 20px;
+}
+
+.text-color {
+    color: #666;
+}
+
+.content-wrapper {
+    max-width: 960px;
+    margin: auto;
+    width: 100%;
+}
+
+.request-demo-button {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    background-color: #a9ff5a;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.adapt-wrap {
+    max-width: 250px;
+    height: 300px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 40px;
+    box-shadow: 0px 0px 5px #e1e1e1;
+    margin-right: 50px;
+}
+
+.sony-details-container {
+    padding: 0 40px;
+}
+
+.demo-title-wrapper {
+    padding-bottom: 20px;
+}
+
+.sony-details-list {
+    padding-bottom: 30px;
+}
+
+.count-heading {
+    margin: 0;
+}
+
+.count-details  {
+    padding: 10px 0;
+}
+
+.see-all-button {
+    width: 300px;
+}
+
+.view-all-button {
+    width: 150px;
+}
+
+.see-all-button, .view-all-button {
+    height: 50px;
+    border: none;
+    background-color: #ebeaea;
+    color: #9d9d9d;
+    border-radius: 25px;
+    font-size: 18px;
+}
+
+.demo-wrapper, .contribution-wrapper, .top-contact-wrapper, .contacts-by-dept-wrapper, .similar-company-wrapper, .email-wrapper {
+    margin: 50px 0;
+}
+
+.demo-wrapper, .contribution-wrapper, .top-contact-list, .similar-company-list, .email-list-container, .graph-wrapper, .hamberger-menu {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #e1e1e1;
+    padding: 25px 0;
+    border-radius: 10px;
+}
+
+.email-wrapper {
+    border-radius: 20px;
+}
+
+.email-list-container, .graph-wrapper {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 30px 0;
+}
+
+.total-count {
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.graph-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.email-list-heading, .email-list {
+    padding: 20px 30px;
+}
+
+.email-list {
+    border-top: 1px solid #c8c8c8;
+    color: #9d9d9d;
+}
+
+.top-contact-list{
+    width: 100%;
+    margin: 0;
+}
+
+.top-contact {
+    padding: 0 40px;
+}
+
+.name-wrap {
+    padding: 5px 0;
+}
+
+.contact-name {
+    color: #3190c1;
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 5px;
+}
+
+.contact-role {
+    font-size: 18px;
+    padding: 5px 0px 15px 25px;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.similar-company-list {
+    margin: 0px;
+    padding: 30px;
+}
+
+.contact-details {
+    padding: 15px 0;
+    color: #9d9d9d;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.company-details {
+    padding: 15px 0px 15px 25px;
+    color: #9d9d9d;
+}
+
+.contact-detail {
+    padding-left: 10px;
+}
+
+.get-contact-button, .free-contact-button {
+    width: 150px;
+    height: 35px;
+    border: none;
+    background-color: #a9ff5a;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.free-contact-button {
+    width: 200px;
+}
+
+.footer {
+    background-color: #2176b7;
+    color: #ffffff;
+    padding: 20px 125px;
+    font-size: 14px;width: 100%;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.titleText {
+    font-size: 20px;
+}
+
+.demo-button {
+    height: 34px;
+    background: #2176b7;
+    color: #FFF;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 0 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.capitalizeText {
+    text-transform: capitalize;
+}
+
+.upperCaseText {
+    text-transform: uppercase;
+}
+
+.displayFlex {
+    display: flex;
+}
+
+.justifyBetween {
+    justify-content: space-between;
+}
+
+.alignRow {
+    flex-direction: row;
+}
+
+.justifyCenter {
+    justify-content: center;
+}
+
+.count-wrapper {
+    padding: 0 20px;
+}
+
+.email {
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 70%;
+    justify-content: space-between;
+}
+.hamberger-menu {
+    max-width: 300px;
+    box-shadow: 0px 0px 5px #666;
+    position: absolute;
+    right: 0;
+    top: 75px;
+    margin-right: 20px;
+    padding: 0;
+}
+
+.hamberger-menu-list {
+    list-style-type: none;
+    padding: 0 20px;
+}
+
+.hamberger-menu-list li {
+    margin: 0 20px;
+}
+
+.color-box {
+    height: 15px;
+    width: 15px;
+}
+
+.color-wrap {
+    display: flex;
+    flex-direction: row;
+}
+
+.color-wrap span {
+    padding-left: 10px;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+@media (max-width: 1125px) {
+    .top-contact-list-wrapper {
+        grid-template-columns: auto auto;
+    }
+}
+
+/*for Tablet*/
+@media (max-width: 1023px) {  
+    .content-wrapper {
+        padding: 0;
+    }
+    .top-contact-list-wrapper {
+        grid-template-columns: auto auto;
+    }
+    .header-wrapper {
+        padding: 0 25px;
+    }
+}
+
+/*for Mobile*/
+@media (max-width: 767px) {
+    .demo-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .adapt-wrap {
+        margin: 0;
+    }
+    .count-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .count-list {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px 0;
+    }
+    .top-contact-list-wrapper {
+        grid-template-columns: auto;
+    }
+    .graph-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .graph-list div{
+        padding: 10px 0;
+    }
+    .similar-company-list-wrapper {
+        grid-template-columns: auto;
+    }
+    .email {
+        flex-direction: column;
+    }
+    .email-list-heading, .email-list {
+        padding: 20px 10px;
+    }
+    .footer {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 20px 25px;
+    }
+    .footer div {
+        padding: 5px 0;
+    }
+    .header-wrapper {
+        padding: 0 20px;
+    }
+    .mobile-menu {
+        display: block;
+    }
+    .button-wrapper {
+        display: none;
+    }
+}
+
+@media (max-width: 420px) {
+    .content-wrapper {
+        padding: 0;
+    }
+    .email-list-container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .footer {
+        padding: 20px 0px;
+    }
+    .titleText {
+        display: flex;
+        justify-content: center;
+    }
+    .email-list-container .email-list-heading{
+        justify-content: space-between;
+    }
+}
+
